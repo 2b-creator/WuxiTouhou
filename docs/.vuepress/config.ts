@@ -53,7 +53,15 @@ export default defineUserConfig({
 
     plugins: {
       // 如果您在此处直接声明为 true，则表示开发环境和生产环境都启用该功能
-      git: true
+      git: true,
+      photoSwipe: {
+        // 图片选择器
+        selector: '.vp-doc :not(a) > img:not([no-view],.no-view,.ignore)',
+        download: true, // 是否显示下载按钮
+        fullscreen: true, // 是否显示全屏按钮
+        scrollToClose: true, // 是否在滚动时关闭当前图片
+        
+      },
     },
 
     // changelog: false,
