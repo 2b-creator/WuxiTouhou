@@ -19,6 +19,6 @@ config:
           theme: brand
         -
           text: GitLab
-          link: https://github.com/pengzhanbo
+          link: https://git.jsut.site/wuxi-touhou/wuxi-touhou-blog
           theme: alt
 ---
