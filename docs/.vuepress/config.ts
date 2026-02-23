@@ -39,7 +39,23 @@ export default defineUserConfig({
     /* 页内信息 */
     // editLink: true,
     // lastUpdated: true,
-    // contributors: true,
+    contributors: {
+      mode: 'block',
+      info: [
+        {
+          username: 'Timothy Starman',
+          alias: ['Timothy Starman','tim'],
+          url: 'https://git.jsut.site/tim',
+          avatar: 'https://git.jsut.site/uploads/-/system/user/avatar/2/avatar.png',
+        }
+      ]
+    },
+
+    plugins: {
+      // 如果您在此处直接声明为 true，则表示开发环境和生产环境都启用该功能
+      git: true
+    },
+
     // changelog: false,
 
     /**

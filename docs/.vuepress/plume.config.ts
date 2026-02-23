@@ -23,7 +23,7 @@ export default defineThemeConfig({
   appearance: true,  // 配置 深色模式
 
   social: [
-    { icon: 'gitlab', link: '/' },
+    { icon: 'gitlab', link: 'https://git.jsut.site/wuxi-touhou/wuxi-touhou-blog' },
     { icon: 'qq', link: 'https://qm.qq.com/q/RJjS7RqEoK' },
   ],
   navbarSocialInclude: ['gitlab', 'qq'], // 允许显示在导航栏的 social 社交链接
